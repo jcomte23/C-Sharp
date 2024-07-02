@@ -84,3 +84,63 @@ líneas.";
 
 Console.WriteLine($"Saludo: {saludo}");
 Console.WriteLine($"Texto Multilínea: {textoMultilinea}");
+
+
+Console.WriteLine();
+Console.WriteLine("########################");
+Console.WriteLine("Conversion de datos => ");
+Console.WriteLine("########################");
+Console.WriteLine();
+
+// Casting implícito (automáticamente) - convertir un tipo más pequeño a un tipo más grande
+// char -> int -> long -> float -> double
+char valorChar = 'A';
+int valorInt = valorChar; // char a int
+long valorLong = valorInt; // int a long
+float valorFloat = valorLong; // long a float
+double valorDouble = valorFloat; // float a double
+
+Console.WriteLine();
+Console.WriteLine("Casting Implícito:");
+Console.WriteLine($"valorChar: {valorChar}");
+Console.WriteLine($"valorInt: {valorInt}");
+Console.WriteLine($"valorLong: {valorLong}");
+Console.WriteLine($"valorFloat: {valorFloat}");
+Console.WriteLine($"valorDouble: {valorDouble}");
+
+// Casting explícito (manualmente) - convertir un tipo más grande a un tipo más pequeño
+// double -> float -> long -> int -> char
+double valorDouble2 = 1.456;
+float valorFloat2 = (float)valorDouble2; // double a float
+long valorLong2 = (long)valorFloat2; // float a long
+int valorInt2 = (int)valorLong2; // long a int
+char valorChar2 = (char)valorInt2; // int a char
+
+Console.WriteLine();
+Console.WriteLine("Casting Explícito:");
+Console.WriteLine($"valorDouble2: {valorDouble2}");
+Console.WriteLine($"valorFloat2: {valorFloat2}");
+Console.WriteLine($"valorLong2: {valorLong2}");
+Console.WriteLine($"valorInt2: {valorInt2}");
+Console.WriteLine($"valorChar2: {valorChar2}");
+
+Console.WriteLine();
+Console.WriteLine("Casting Explícito:");
+int numeroEntero = 10;
+double numeroConDecimal = 5.25;
+bool Boolean = true;
+
+// Convertir bool a string
+Console.WriteLine(Convert.ToString(Boolean));
+
+// Convertir int a string
+Console.WriteLine(Convert.ToString(numeroEntero));
+
+// Convertir int a double
+Console.WriteLine(Convert.ToDouble(numeroEntero));
+
+// Convertir double a int
+Console.WriteLine(Convert.ToInt32(numeroConDecimal));
+
+// Convertir double a long
+Console.WriteLine(Convert.ToInt64(numeroConDecimal));
