@@ -85,6 +85,20 @@ líneas.";
 Console.WriteLine($"Saludo: {saludo}");
 Console.WriteLine($"Texto Multilínea: {textoMultilinea}");
 
+// Concatenacion de strings
+
+string nombre = "Juan";
+string primerApellido = "Pérez";
+string segundoApellido = "Martinez";
+
+string nombreCompleto1 = nombre + " " + primerApellido + " " + segundoApellido;
+string nombreCompleto2 = $"{nombre} {primerApellido} {segundoApellido}";
+string nombreCompleto3 = string.Concat(nombre," ", primerApellido," ", segundoApellido);
+
+Console.WriteLine();
+Console.WriteLine($"Nombre Completo option 1: {nombreCompleto1}");
+Console.WriteLine($"Nombre Completo option 2: {nombreCompleto2}");
+Console.WriteLine($"Nombre Completo option 3: {nombreCompleto3}");
 
 Console.WriteLine();
 Console.WriteLine("########################");
