@@ -1,8 +1,13 @@
-﻿// TIPOS DE STRINGS EN C#
-using System.Text;
-
+﻿/*
+**************************
+TIPOS DE STRING
+**************************
+*/
 char unCaracter = 'a';
 string multiplesCaracteres = "hola mundo, hoy es un nuevo dia";
+
+Console.WriteLine(unCaracter);
+Console.WriteLine(multiplesCaracteres);
 
 /*
 **************************
