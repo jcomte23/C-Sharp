@@ -169,4 +169,18 @@ Su tamaño se define al crear el array y no se puede modificar posteriormente. P
 
 ### `Array` vs `List`
 
+#### Rendimiento
+
 - Los `Array`s ofrecen un mejor rendimiento para el acceso y la manipulación de elementos contiguos en memoria, especialmente para grandes conjuntos de datos.
+
+- List<T>: Las listas son más flexibles y escalables, y su rendimiento suele ser comparable al de los arrays para la mayoría de las operaciones comunes. Sin embargo, en algunos casos, como la inserción o eliminación frecuente de elementos, las listas pueden tener un rendimiento ligeramente inferior.
+
+#### Acceso a elementos
+
+- Ambas colecciones pueden ser accedidas a sus elementos a través de sus índices o posiciones. Sin embargo, Las `List`as destacan en el acceso _'aleatorio'_ de elementos con métodos como `List.IndexOf()` y `List.Contains()` para buscar elementos por valor.
+
+#### Escenarios de uso
+
+- `Array`: Matrices matemáticas, buffers de datos, grandes conjuntos de datos estáticos.
+
+- `List<T>`: Almacenar colecciones de objetos personalizados. Estructurra dinámica. Ofrece métodos de filtrado, busqueda, inserción y eliminación.
