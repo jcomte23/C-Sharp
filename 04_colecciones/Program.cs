@@ -68,3 +68,10 @@ var nuevosNumeros = numeros.Append(6);
 // -*********************************************************-
 
 Console.WriteLine("#######################");
+
+// -*********************************************************-
+
+// EJERCICIOS
+
+// Calculadora de Promedio de Calificaciones
+

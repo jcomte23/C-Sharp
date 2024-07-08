@@ -184,3 +184,26 @@ Su tamaño se define al crear el array y no se puede modificar posteriormente. P
 - `Array`: Matrices matemáticas, buffers de datos, grandes conjuntos de datos estáticos.
 
 - `List<T>`: Almacenar colecciones de objetos personalizados. Estructurra dinámica. Ofrece métodos de filtrado, busqueda, inserción y eliminación.
+
+## Ejercicios
+
+### #1 Calculadora de Promedio de Calificaciones
+
+- Solicita al usuario que ingrese las calificaciones del estudiante separadas por comas.
+- Convierte las calificaciones ingresadas a una `List`a.
+- Suma todas las calificaciones y calcular su promedio.
+- Muestra el promedio de calificaciones al usuario.
+
+### #2 Calculadora de Estadísticas de Calificaciones
+
+- Solicita al usuario que ingrese las calificaciones del estudiante separadas por comas.
+- Convierte las calificaciones ingresadas a una `List`a.
+- Calcular las siguientes estadísticas:
+  - Promedio de Calificaciones
+  - Calificación Máxima
+  - Calificación Mínima
+  - Número de Aprobados (calificación mayor o igual a 70)
+  - Número de Reprobados (calificación menor a 70)
+  - Lista de Calificaciones Ordenadas de Mayor a Menor
+- Muestra las estadísticas de calificaciones al usuario.
+ 
