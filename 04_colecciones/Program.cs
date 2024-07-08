@@ -62,7 +62,7 @@ Console.WriteLine("Array");
 
 int[] numeros = { 1, 2, 3, 4, 5 };
 
-var newNumberos = numeros.Append(6);
+var nuevosNumeros = numeros.Append(6);
 
 
 // -*********************************************************-
