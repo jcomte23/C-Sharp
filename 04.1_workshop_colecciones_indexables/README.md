@@ -61,7 +61,7 @@ int[,] arrayBase = {
 - Descripción: Dada la siguiente lista, elimina los elementos duplicados creando una lista con elementos únicos.
 
 ```c#
-var stringList = new List<string> {"manzana", "banana", "cereza", "manzana", "durazno", "plátano", "cereza", "manzana", "durazno", "banana"}
+var stringList = new List<string> {"manzana", "banana", "cereza", "manzana", "durazno", "plátano", "cereza", "manzana", "durazno", "banana"};
 ```
 
 ## Ejercicio 7: Intersección de listas
